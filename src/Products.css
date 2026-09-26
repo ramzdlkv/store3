@@ -69,5 +69,13 @@
     position: relative;
     left: 105px;
     z-index: 1;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
 
+
+.like img:active {
+    transform: scale(1.3); 
 }
